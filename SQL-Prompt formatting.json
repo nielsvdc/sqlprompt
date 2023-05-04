@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "id": "1238448b-ba51-4af6-af4c-4deea45d99d5",
+    "name": "Vermaat"
+  },
+  "whitespace": {
+    "wrapLinesLongerThan": 200,
+    "newLines": {
+      "preserveExistingEmptyLinesAfterBatchSeparator": false
+    }
+  },
+  "lists": {
+    "placeFirstItemOnNewLine": "always",
+    "placeSubsequentItemsOnNewLines": "ifLongerThanMaxLineLength",
+    "alignItemsAcrossClauses": false,
+    "alignComments": true,
+    "placeCommasBeforeItems": true,
+    "addSpaceAfterComma": false
+  },
+  "parentheses": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentParenthesesContents": true,
+    "collapseShortParenthesisContents": true,
+    "collapseParenthesesShorterThan": 160,
+    "addSpacesAroundParentheses": false
+  },
+  "casing": {
+    "reservedKeywords": "uppercase",
+    "builtInFunctions": "uppercase",
+    "builtInDataTypes": "uppercase",
+    "useObjectDefinitionCase": true
+  },
+  "dml": {
+    "collapseStatementsShorterThan": 160,
+    "collapseSubqueriesShorterThan": 160,
+    "listItems": {
+      "placeFromTableOnNewLine": "ifMultiple",
+      "placeWhereConditionOnNewLine": "ifMultiple",
+      "placeGroupByAndOrderByOnNewLine": "ifMultiple"
+    }
+  },
+  "ddl": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentParenthesesContents": true,
+    "placeConstraintsOnNewLines": true,
+    "placeConstraintColumnsOnNewLines": "ifLongerOrMultipleColumns",
+    "collapseShortStatements": true,
+    "collapseStatementsShorterThan": 160
+  },
+  "controlFlow": {
+    "collapseStatementsShorterThan": 78
+  },
+  "cte": {
+    "parenthesisStyle": "expandedToStatement",
+    "indentContents": true
+  },
+  "joinStatements": {
+    "join": {
+      "keywordAlignment": "indented",
+      "indentJoinTable": false
+    },
+    "on": {
+      "keywordAlignment": "indented"
+    }
+  },
+  "insertStatements": {
+    "values": {
+      "parenthesisStyle": "compactIndented",
+      "indentContents": true
+    }
+  },
+  "functionCalls": {
+    "placeArgumentsOnNewLines": "never"
+  },
+  "caseExpressions": {
+    "placeFirstWhenOnNewLine": "ifInputExpression",
+    "collapseShortCaseExpressions": true,
+    "collapseCaseExpressionsShorterThan": 78
+  },
+  "operators": {
+    "andOr": {},
+    "between": {
+      "placeOnNewLine": false
+    },
+    "in": {
+      "placeFirstValueOnNewLine": "never",
+      "placeSubsequentValuesOnNewLines": "never"
+    }
+  }
+}
